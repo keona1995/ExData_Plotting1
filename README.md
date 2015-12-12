@@ -111,6 +111,6 @@ The four plots that you will need to construct are shown below.
 
 I included two extra files:
 
-*  truncateHouseholdPower.R -- this a script that extracted just the rows necessary from the original dataset and transformed two of the columns.
+*  truncateHouseholdPower.R -- this is a script that extracts just the rows necessary from the original dataset and transforms two of the columns.
 
 *  truncatedhouseholdpower.csv -- this is the truncated file, in case anybody wants to run the plot scripts, since all of the scripts read the truncated file.
