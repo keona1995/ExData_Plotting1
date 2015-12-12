@@ -35,10 +35,6 @@ web site</a>:
 
 ## Loading the data
 
-
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -67,7 +63,6 @@ using the base plotting system.
 
 First you will need to fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
-
 
 For each plot you should
 
@@ -112,3 +107,10 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+## Modification by the student
+
+I included two extra files:
+
+*  truncateHouseholdPower.R -- this a script that extracted just the rows necessary from the original dataset and transformed two of the columns.
+
+*  truncatedhouseholdpower.csv -- this is the truncated file, in case anybody wants to run the plot scripts, since all of the scripts read the truncated file.
